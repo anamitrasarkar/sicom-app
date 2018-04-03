@@ -19,3 +19,7 @@
 ## Errors
 ```
 If you run into any errors like 'Error: xcrun simctl list -json', just run XCode again it most likely need updates, once updates are installed it will work fine.
+
+
+### Note
+When you initialize the app in the simulator for the first time and you enter store id, the store code API takes few seconds to return response.
