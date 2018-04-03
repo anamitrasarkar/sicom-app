@@ -1,0 +1,30 @@
+<div class="container">
+  <img src="./img/logo.png" alt="Sicom">
+  {{message}}
+  <div class="card">
+    <h3 class="card-header"></h3>
+    <div class="card-body">
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            Store code: {{storeCode}}
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="id">Username:</label>
+        <input type="text" class="form-control" ng-model="Community.username"><br>
+      </div>
+
+      <div class="form-group">
+        <br>
+        <button class="btn btn-primary" ng-click="getKowledgeArticles()">Login</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="form-group">
+    <br>
+    <button class="btn btn-primary btn-block" ng-click="navigateHome()">Back</button>
+  </div>
