@@ -23,6 +23,7 @@ If you run into any errors like 'Error: xcrun simctl list -json', just run XCode
 
 ### Note
 When you initialize the app in the simulator for the first time and you enter store id, the store code API takes few seconds to return response.
+```
 
 ## Screen Shots
 
@@ -30,3 +31,4 @@ When you initialize the app in the simulator for the first time and you enter st
 ![alt text](Screen2.png)
 ![alt text](Screen3.png)
 ![alt text](Screen4.png)
+
